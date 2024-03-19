@@ -1,6 +1,7 @@
 <template>
   <div class="login-form">
     <h2>Welcome Back</h2>
+    <p>Enter your email address and password to access your account.</p>
     <form @submit.prevent="login">
       <label for="email">Email Address</label>
       <input type="email" id="email" v-model="email" required />
@@ -73,7 +74,7 @@ export default {
 }
 
 .login-form button {
-  background-color: #6a63ff;
+  background-color: #61227D;
   color: #fff;
   border: none;
   border-radius: 4px;
@@ -83,7 +84,7 @@ export default {
 }
 
 .login-form button:hover {
-  background-color: #524de7;
+  background-color: #61227D;
 }
 
 .login-form a {
