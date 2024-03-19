@@ -2,7 +2,7 @@
   <div class="login-container">
     <!-- Left Section -->
     <div class="left-section">
-      <h1>Team Achieve</h1>
+      <img alt=" logo" src="./../assets/logo.png">
       <img src="./../assets/header-image.png" alt="Team Achieve Logo" />
       <p>Your perfect solution for funding your desires</p>
     </div>
@@ -52,12 +52,14 @@ export default {
 </script>
 
 <style scoped>
-/* Styles for the left section */
+
+/* left section */
 .left-section {
 
   background-color: #F8EAFF;
   color: #ffffff;
   padding: 50px;
+  max-width: 50vmax;
   text-align: center;
 }
 
@@ -70,13 +72,13 @@ export default {
   margin-top: 20px;
 }
 
-/* Styles for the right section */
+/*right section */
 .right-section {
-  background-color: 0;
+  background-color: #FCFCFC;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 100%;
 }
 
 .login-container {
