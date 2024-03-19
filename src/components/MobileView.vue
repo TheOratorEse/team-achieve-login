@@ -1,5 +1,6 @@
 <template>
     <div class="login-form">
+      <img alt=" logo" src="./../assets/logo.png"> <br>
       <h2 style="color: #61227D;">Welcome Back</h2>
       <p>Enter your email address and password to access your account.</p>
       <form @submit.prevent="login">

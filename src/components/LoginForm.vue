@@ -19,7 +19,7 @@ export default {
   },
   data() {
     return {
-      isMobile: window.innerWidth < 768, // Set breakpoint as needed
+      isMobile: window.innerWidth < 768, // 
     };
   },
   mounted() {
@@ -30,7 +30,7 @@ export default {
   },
   methods: {
     handleResize() {
-      this.isMobile = window.innerWidth < 768; // Update breakpoint if necessary
+      this.isMobile = window.innerWidth < 768; 
     },
   },
 };
