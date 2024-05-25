@@ -1,1 +1,1 @@
-﻿# A simpme login-page using Vue.js
+﻿# A simple login-page using Vue.js
